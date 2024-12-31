@@ -1,0 +1,162 @@
+.about {
+    padding: 2rem;
+    background-color: #f4f7fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4a90e2;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .about-description {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    line-height: 1.6;
+    animation: slideUp 1s ease-out;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 250px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-section {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .team-card {
+    background-color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .team-card img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-card h4 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .team-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .animation-section {
+    margin-top: 5rem;
+  }
+  
+  .animation-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #4a90e2;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .achievement-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .achievement-card {
+    background-color: #fff;
+    width: 250px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .achievement-card h3 {
+    font-size: 1.5rem;
+    color: #4a90e2;
+    margin-bottom: 1rem;
+  }
+  
+  .achievement-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

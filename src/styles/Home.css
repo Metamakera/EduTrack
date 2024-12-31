@@ -1,0 +1,200 @@
+*{
+    font-family: poppins;
+}
+
+.home {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  .hero {
+    background: linear-gradient(to left, #031224, #346bb3);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3rem 0;
+    border-radius: 10px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: rgb(213, 208, 208);
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background-color: #0307fa;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 5ms ease-in-out;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffffff;
+    color: blue;
+    transform: translateY(-5px);
+  }
+  
+  .intro {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .mission,
+  .why-choose,
+  .get-involved,
+  .testimonials {
+    margin-top: 4rem;
+  }
+  
+  .mission h2,
+  .why-choose h2,
+  .get-involved h2,
+  .testimonials h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #4a90e2;
+  }
+  
+  .why-choose ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .why-choose li {
+    font-size: 1.1rem;
+  }
+  
+  .testimonials {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    width: 300px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial-card h4 {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #4a90e2;
+  }
+  
+  .gallery {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .gallery-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-card {
+    width: 32%;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .gallery-card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .gallery-card:hover .gallery-overlay {
+    opacity: 1;
+  }
+  
+  .contact {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .contact a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Fade-in Animation */
+  .fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

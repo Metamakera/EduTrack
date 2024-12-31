@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    .navbar .nav-links {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .dashboard-container .sidebar {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .dashboard-container .dashboard-content {
+      margin-top: 20px;
+    }
+  }
+  
